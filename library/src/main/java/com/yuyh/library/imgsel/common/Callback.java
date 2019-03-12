@@ -7,7 +7,7 @@ import java.io.Serializable;
  * @author yuyh.
  * @date 2016/8/5.
  */
-public interface Callback extends Serializable {
+public interface Callback {
 
     void onSingleImageSelected(String path);
 

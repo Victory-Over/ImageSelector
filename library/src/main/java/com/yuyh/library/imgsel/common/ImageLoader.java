@@ -9,6 +9,6 @@ import java.io.Serializable;
  * @author yuyh.
  * @date 2016/8/5.
  */
-public interface ImageLoader extends Serializable {
+public interface ImageLoader {
     void displayImage(Context context, String path, ImageView imageView);
 }
